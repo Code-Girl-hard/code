@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<style parent="android:Theme.Light" name="AppBaseTheme"> </style>
+
+<style parent="AppBaseTheme" name="AppTheme"> </style>
+
+
+<style parent="android:Widget.Holo.Light.TextView" name="tvStyle">
+
+<item name="android:layout_marginBottom">20dp</item>
+
+<item name="android:layout_marginLeft">5dp</item>
+
+<item name="android:layout_marginRight">5dp</item>
+
+<item name="android:layout_marginTop">20dp</item>
+
+<item name="android:layout_width">wrap_content</item>
+
+<item name="android:layout_height">wrap_content</item>
+
+<item name="android:layout_centerVertical">true</item>
+
+<item name="android:textSize">16dp</item>
+
+</style>
+
+
+<style parent="android:Widget.Holo.Light.EditText" name="edtTxtStyle">
+
+<item name="android:background">@null</item>
+
+<item name="android:layout_marginRight">5dp</item>
+
+<item name="android:layout_width">match_parent</item>
+
+<item name="android:layout_height">wrap_content</item>
+
+</style>
+
+</resources>
